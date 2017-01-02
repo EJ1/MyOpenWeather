@@ -1,0 +1,141 @@
+﻿h1, h2, h3, h4, h5, h6, p, ul, ol, div {
+    margin: 25px 0;
+}
+
+html, body, header, hgroup, section, article, footer {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Open Sans;
+    font-size: 100%;
+}
+
+#canvas {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+    #canvas > div, #canvas > footer {
+        display: table-row;
+    }
+
+main {
+    display: table-cell;
+    height: 100%;
+    margin: 0;
+}
+
+main > header {
+    text-align: center;
+}
+
+main > header > h1 {
+    font-size: 400%;
+}
+
+main > section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+main > section > form > input[type="text"] {
+    width: 50%;
+    max-width: 500px;
+}
+
+input[type="text"] {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #555555;
+}
+
+#weatherForecast {
+    padding: 25px;
+    border-top: 1px solid #000000;
+}
+
+#weatherForecast > header > h2 {
+    margin: 0;
+}
+
+#weatherForecast > nav {
+    margin-top: 50px;
+}
+
+#weatherForecast > nav > ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#weatherForecast > nav > ul > li {
+    display: inline-block;
+    min-width: 100px;
+    margin: 0 5px 25px 5px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #333399;
+    border-radius: 10px;
+	cursor: pointer;
+}
+
+#weatherForecast > nav > ul > li:hover {
+    background-color: #4444aa;
+}
+
+#weatherForecast > nav > ul > li.selected {
+    background-color: #5555ff;
+}
+
+#weatherForecast > div > article {
+    display: inline-block;
+    margin: 0 10px 20px 10px;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+#weatherForecast > div > article > header > h2 {
+    margin-top: 15px;
+}
+
+#weatherForecast > div > article > div:nth-child(2) > img {
+    width: 150px;
+}
+
+#weatherForecast > div > article > div:nth-child(2) > span {
+    display: block;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+#weatherForecast > div > article > dl {
+    margin-top: 25px;
+    text-align: left;
+}
+
+#weatherForecast > div > article > dl > dt {
+    min-width: 85px;
+}
+
+#weatherForecast > div > article > dl > dd {
+    margin-left: 0;
+}
+
+#weatherForecast > div > article > dl > dt, #weatherForecast > div > article > dl > dd {
+    display: inline-block;
+}
+
+#canvas > footer > span {
+    display: table-cell;
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #5555ff;
+}
